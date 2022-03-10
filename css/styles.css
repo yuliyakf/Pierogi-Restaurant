@@ -3,6 +3,9 @@
    padding:0;
    margin: 0;
 }
+.wood {
+   background-image: url("/images/wooden\ background.jpg");
+}
 
 .logo {
    color: rgb(15, 94, 160);
@@ -67,4 +70,11 @@ p {
 .social {
    text-align: center;
 }
-
+.card {
+   box-shadow:10px 10px 5px rgb(102, 53, 14);
+   margin-top: 20px;
+}
+.food {
+   color: rgb(166, 245, 248);
+   text-shadow: 4px 4px 5px rgb(14, 7, 2);
+}
