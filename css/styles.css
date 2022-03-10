@@ -41,7 +41,7 @@
    display: flex;
    justify-content: center;
    width: 100%;
-   height: 100vh;
+   
 }
 
 h2 {
@@ -53,11 +53,18 @@ p {
 }
 .first {
    margin-bottom: 0;
-   padding: 30px;
+   padding: 10px 20px;
 }
 .theme {
    color: white;
    font-family: Calisto MT;
+   text-align: center;
 }
 
+.site-footer {
+   padding: 40px 0;
+}
+.social {
+   text-align: center;
+}
 
