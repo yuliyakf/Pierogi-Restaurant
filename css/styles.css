@@ -7,11 +7,14 @@
    background-image: url("/images/wooden\ background.jpg");
 }
 
+
+
 .logo {
    color: rgb(15, 94, 160);
    text-shadow: 2px 2px 4px rgb(168, 197, 231);
    font-size: 40px;
 }
+
 
 .list {
    color: rgb(15, 94, 160);
