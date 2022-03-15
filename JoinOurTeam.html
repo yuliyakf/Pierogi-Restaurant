@@ -36,7 +36,7 @@
                      <p class="list">Menu</p>
                   </a></li>
                <li class="nav-item"><a class="nav-link" href="#">
-                     <p class="list">Join Our Team</p>
+                     <p class="list active">Join Our Team</p>
                   </a></li>
                <li class="nav-item"><a class="nav-link" href="AboutUs.html">
                      <p class="list">About Us</p>
@@ -48,6 +48,96 @@
          </div>
       </nav>
    </header>
+
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-sm-12 p-0">
+            <div class="joinusimage"></div>
+         </div>
+      </div>
+   </div><br>
+
+   <div class="container">
+      <div class="row">
+         <div class="col col-md-6">
+            <h3 class="text">We are always looking for great people to join our team!</h3>
+            <p>Lorem ipsum dolor sit amet. Ut dolorem itaque aut odio sint eum perspiciatis cumque non optio accusamus
+               in distinctio repellat? Ab amet saepe est quia architecto sed repellendus quas. <br>
+
+               At omnis voluptas ut laudantium aperiam ad velit tenetur inventore maxime aut optio dolorum? Fugiat
+               cumque ab iure provident aut dolor quos. Est fugit animi est velit voluptas vel laudantium perferendis et
+               laborum cumque et molestias rerum? <br>
+
+               Et magni sint sit neque recusandae et eveniet laudantium. Aut eius labore aut voluptatem velit ea maiores
+               accusamus eos eaque quod. Qui voluptatem voluptatem ut rerum saepe qui eius magni ut animi quaerat hic
+               quia molestias. Est dignissimos quia qui soluta eligendi ut neque enim non eius consequatur eos quia
+               aperiam in itaque nisi sed repellendus maiores.</p>
+         </div>
+         <div class="col col-md-6">
+            <h3 class="text">Come Join Us!</h3>
+            <form action="/action_page.php">
+               <div class="form-group">
+                  <label for="firstName" style="display:none;"></label>
+                  <input type="text" class="form-control" id="firstName" name="firstName"  placeholder="First Name">
+               </div>
+               <div class="form-group">
+                  <label for="lastName" style="display:none;"></label>
+                  <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+               </div>
+               <form class="form-inline">
+                  <div class="row">
+                     <div class="col-sm-6">
+                        <div class="form-group">
+                           <label for="email" style="display:none;"></label>
+                           <input type="email" class="form-control" id="email" name="email"
+                              placeholder="someemail@email.com">
+                        </div>
+                     </div>
+                     <div class="col-sm-6">
+                        <div class="form-group">
+                           <label for="phone" style="display:none;"></label>
+                           <input type="tel" class="form-control" id="phone" name="phone" placeholder="(123)456-7890">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-sm-6">
+                        <div class="form-group">
+                           <label for="selectPosition" style="display:none;"></label>
+                           <select class="form-control" id="selectPosition" name="position">
+                              <option selected>Select Position...</option>
+                              <option>Barista</option>
+                              <option>Front of House</option>
+                              <option>Line Cook</option>
+                              <option>Prep Cook</option>
+                              <option>Dish</option>
+                              <option>Baker</option>
+                           </select>
+                        </div>
+                     </div>
+                     <div class="col-sm-6">
+                        <div class="form-group">
+                           <label for="date" style="display:none;"></label>
+                           <input type="text" class="form-control" id="date" name="startDate" onfocusin="(this.type='date')" onfocusout="(this.type='text')" placeholder="Start Date">
+                        </div>
+                     </div>
+                  </div>
+               </form>
+               <div class="form-group">
+                  <label for="selectExperience" style="display:none;"></label>
+                  <select class="form-control" id="selectExperience" name="experience">
+                     <option selected>Experience Level</option>
+                     <option>Less than 1 year</option>
+                     <option>1-3 years</option>
+                     <option>3-5 years</option>
+                     <option>5 years +</option>
+                  </select>
+               </div>
+         <button class="btn btn-secondary btn-block" type="submit">Apply Now</button>
+         </form>
+      </div>
+   </div>
+   </div>
 
    <footer class="site-footer">
       <div class="container">
@@ -67,15 +157,15 @@
                      class="fa fa-envelope-o fa-lg text-primary"></i>pierogirestaurant@gmail.com</a>
             </div>
          </div>
-     </div>
-  </footer>
+      </div>
+   </footer>
 
-  
-      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-      <script src="js/main.js"></script>
+
+   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="js/main.js"></script>
 
 
 </body>
