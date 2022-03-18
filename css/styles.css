@@ -8,19 +8,32 @@
    background-image: url("/images/wooden\ background.jpg");
 }
 
+.brick {
+   background-image: url("/images/joe-woods-4Zaq5xY5M_c-unsplash.jpg");
+}
+
 .logo {
-   color: rgb(15, 94, 160);
-   text-shadow: 2px 2px 4px rgb(168, 197, 231);
-   font-size: 40px;
+   color: rgb(253, 250, 34);
+   text-shadow: 4px 4px 8px rgb(2, 69, 141);
+   font-size: 50px;
+   font-weight: bold;
 }
 
 .list {
    color: rgb(15, 94, 160);
    padding: 0px 15px;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.list:hover{
+   color:rgb(17, 155, 235);
+   text-shadow: 2px 2px 3px rgb(3, 25, 71);
 }
 
 .active {
    font-weight: bold;
+   
 }
 
 .navbar-toggler-icon {
@@ -105,7 +118,7 @@ p {
    background-color: rgb(0, 0, 0, 0.6);  
 }
 
-#myImg:hover {
+.myImg:hover {
    border: solid rgb(255, 255, 255);
    box-shadow:10px 10px 5px rgb(102, 53, 14);
 }
@@ -120,5 +133,23 @@ p {
 }
 
 .text {
+   text-align: center;
+}
+ 
+#carouselCaptions {
+   width:60%;
+}
+
+.carousel-item {
+   height:500px;
+}
+
+.aboutUs {
+   width: 80%;
+}
+.address {
+   display:block;
+   font-style:italic;
+   font-size: large;
    text-align: center;
 }
